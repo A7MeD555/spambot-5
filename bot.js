@@ -12,9 +12,9 @@ client.on('ready', () => {
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("500018034405146634")
+let channel =     client.channels.get("500019469939245076")
 setInterval(function() {
-channel.send(`معنديش حاجة اقولها ههههههههههههههههههه :joy:hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh`);
+channel.send(`احلا مسا عليك يابرو بوت ;joy; وعليك ياابو جبل`);
 }, 25)
 })
 
