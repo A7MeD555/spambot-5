@@ -11,7 +11,12 @@ client.on('ready', () => {
 
 
 
-// CODES HERE
+client.on("ready", () => {
+let channel =     client.channels.get("500018034405146634")
+setInterval(function() {
+channel.send(`معنديش حاجة اقولها ههههههههههههههههههه :joy:hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh`);
+}, 25)
+})
 
 
 
